@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.901);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(32, 32, 32);
+  border-radius: 8px;
+  max-width: 320px;
+  width: 100%;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+figcaption,
+p {
+  color: white;
+  margin-top: 15px;
+}
+
+.location {
+  color: rgb(212, 255, 22);
+  margin-top: 5px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+p {
+  text-align: center;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 15px 20px;
+  text-align: center;
+}
+
+ul li a {
+  display: block;
+  height: 28px;
+  width: auto;
+  padding-top: 10px;
+  background-color: rgb(58, 58, 58);
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background-color: rgb(107, 107, 107);
+  font-size: 110%;
+}
